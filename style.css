@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .header-hero {
@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 1000px;
 }
 
@@ -26,19 +27,49 @@ body {
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
+    gap: 20px;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
 .hero {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 1000px;
+    padding: 70px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero img {
-    width:500px;
+    height: 300px;
+}
+
+.hero button {
+    border: none;
+    border-radius: 12px;
+    padding: 15px 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero-text {
+    margin-right: 55px;
 }
