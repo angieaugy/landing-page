@@ -80,7 +80,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px 0;
+    margin: 50px 0;
 }
 
 .information h2 {
@@ -92,7 +92,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 50px;
     gap: 30px;
 }
 
@@ -108,3 +108,26 @@ body {
     border-radius: 12px;
     border: 2px solid #b1b1b1;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.quote p {
+    padding: 0;
+    width: 900px;
+    font-size: 25px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+p.author {
+    font-style: normal;
+    text-align: right;
+    font-weight: bold;
+}
+
