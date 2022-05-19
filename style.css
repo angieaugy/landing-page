@@ -141,7 +141,7 @@ p.author {
     padding: 40px 60px;
     border-radius: 12px;
     color: #F9FAF8;
-    background-color: #3882F6;
+    background-color: #A23B72;
 }
 
 .action h2, .action p {
@@ -152,9 +152,17 @@ p.author {
     padding: 15px 30px;
     border: 2px solid #F9FAF8;
     border-radius: 12px;
-    background-color: #3882F6;
+    background-color: #A23B72;
     color: #F9FAF8;
     font-weight: bold;
     font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background: rgba(131,58,180,1);
+    color: #F9FAF8;
 }
 
