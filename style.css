@@ -148,6 +148,16 @@ p.author {
     margin: 0;
 }
 
+.action-text {
+    display: flex;
+    align-items: center;
+}
+
+.action-text span {
+    font-size: 40px;
+    margin-right:10px;
+}
+
 .action button {
     padding: 15px 30px;
     border: 2px solid #F9FAF8;
