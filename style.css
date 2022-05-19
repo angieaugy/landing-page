@@ -6,18 +6,16 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-a {
+.header a {
     color:#F9FAF8;
     text-decoration: none;
 }
 
-a:hover {
-    font-weight: bold;
+.header a:hover {
     border-bottom: 2px solid #F9FAF8;
 }
 
 .header-hero {
-    /* background-color: #1F2937; */
     background: rgb(131,58,180);
     background: linear-gradient(22deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 60%, rgba(252,176,69,1) 100%);
     display: flex;
@@ -73,6 +71,11 @@ a:hover {
     height: 300px;
 }
 
+.hero a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
 .hero button {
     border: none;
     border-radius: 12px;
@@ -82,6 +85,11 @@ a:hover {
     color: #F9FAF8;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #7caeff;
 }
 
 .hero-text {
@@ -118,7 +126,7 @@ a:hover {
     width: 125px;
     height: 125px;
     border-radius: 12px;
-    border: 2px solid #b1b1b1;
+    border: 1px solid #b1b1b1;
 }
 
 .quote {
@@ -178,6 +186,11 @@ p.author {
     color: #F9FAF8;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.action button:hover {
+    background-color: #d380ac;
 }
 
 .footer {
