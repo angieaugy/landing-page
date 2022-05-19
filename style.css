@@ -131,3 +131,30 @@ p.author {
     font-weight: bold;
 }
 
+.action {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    margin: 60px 0;
+    padding: 40px 60px;
+    border-radius: 12px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.action h2, .action p {
+    margin: 0;
+}
+
+.action button {
+    padding: 15px 30px;
+    border: 2px solid #F9FAF8;
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
